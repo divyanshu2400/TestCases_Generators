@@ -1,0 +1,31 @@
+{
+  "name": "ai_testcaseagent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node test.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^22.13.4",
+    "dotenv": "^16.4.7",
+    "fs": "^0.0.1-security",
+    "openai": "^4.85.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrabhaSDET-TestV/AI_TestCaseAgent.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/PrabhaSDET-TestV/AI_TestCaseAgent/issues"
+  },
+  "homepage": "https://github.com/PrabhaSDET-TestV/AI_TestCaseAgent#readme"
+}

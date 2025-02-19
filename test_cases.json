@@ -1,0 +1,58 @@
+[
+  {
+    "testCaseTitle": "Test Offline Mode with Internet Connection",
+    "steps": [
+      "Launch the language learning app",
+      "Select a language",
+      "Enable offline mode",
+      "Attempt to access online resources",
+      "Verify error message or alternative content"
+    ],
+    "expectedOutcome": "Error message or alternative content displayed"
+  },
+  {
+    "testCaseTitle": "Test Offline Mode without Internet Connection",
+    "steps": [
+      "Launch the language learning app",
+      "Select a language",
+      "Enable offline mode",
+      "Access offline content",
+      "Verify correct functionality"
+    ],
+    "expectedOutcome": "Correct functionality with offline content"
+  },
+  {
+    "testCaseTitle": "Test Offline Mode with Empty Cache",
+    "steps": [
+      "Clear app cache",
+      "Launch the language learning app",
+      "Select a language",
+      "Enable offline mode",
+      "Attempt to access offline content",
+      "Verify correct functionality"
+    ],
+    "expectedOutcome": "Correct functionality with empty cache"
+  },
+  {
+    "testCaseTitle": "Test Offline Mode with Invalid Language Selection",
+    "steps": [
+      "Launch the language learning app",
+      "Select an invalid language",
+      "Enable offline mode",
+      "Attempt to access offline content",
+      "Verify error message or alternative content"
+    ],
+    "expectedOutcome": "Error message or alternative content displayed"
+  },
+  {
+    "testCaseTitle": "Test Offline Mode with Empty Language Data",
+    "steps": [
+      "Launch the language learning app",
+      "Select a language with no offline data",
+      "Enable offline mode",
+      "Attempt to access offline content",
+      "Verify error message or alternative content"
+    ],
+    "expectedOutcome": "Error message or alternative content displayed"
+  }
+]

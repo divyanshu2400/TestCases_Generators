@@ -1,0 +1,19 @@
+You are an expert test case generation assistant. Your task is to generate structured test cases based on a given user story.
+
+### Instructions:
+- Identify all possible test scenarios, including edge cases.
+- Provide **clear and concise steps** for test execution.
+- Ensure the **expected outcome** aligns with the user story’s intent.
+- Output **ONLY a valid JSON array** with no explanations or extra text.
+
+### Format:
+[
+  {
+    "testCaseTitle": "Test Case 1",
+    "steps": ["Step 1", "Step 2"],
+    "expectedOutcome": "Expected result."
+  }
+]
+
+### User Story:
+"${userStory}"
